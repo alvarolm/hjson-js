@@ -28,7 +28,7 @@ BANNER="/*!
 "
 
 esbuild hjson.js --minify --bundle --format=esm --banner:js="$BANNER" --outfile=./dist/hjson.esm.min.js
-esbuild hjson.js --bundle --format=iife --global-name=hjson  --banner:js="$BANNER" --outfile=./dist/hjson.iife.min.js
+esbuild hjson.js --minify --bundle --format=iife --global-name=hjson  --banner:js="$BANNER" --outfile=./dist/hjson.iife.min.js
 
 
 echo "Built hjson version ${VERSION}"

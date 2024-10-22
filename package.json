@@ -1,0 +1,28 @@
+{
+  "name": "@alvarolm/hjson",
+  "version": "0.0.1",
+  "description": "hjson compatible parser and encoder in js",
+  "main": "hjson.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarolm/hjson-js.git"
+  },
+  "keywords": [
+    "hjson",
+    "json",
+    "parser",
+    "encoder"
+  ],
+  "author": "Alvaro Leiva Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvarolm/hjson-js/issues"
+  },
+  "homepage": "https://github.com/alvarolm/hjson-js#readme"
+}
